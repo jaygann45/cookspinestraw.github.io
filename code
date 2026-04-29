@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cook's Pine Straw | Commercial Pine Straw Installation in Georgia</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f1720;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+header {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+                url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 750px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 40px;
+    background: #b91c1c;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn:hover { background: #991b1b; }
+
+section {
+    padding: 90px 10%;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.section-light { background: #111827; }
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1f2937;
+    padding: 35px;
+    border-left: 4px solid #b91c1c;
+}
+
+.cta-strip {
+    background: #b91c1c;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-strip h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+
+.contact-section {
+    background: #000;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 14px;
+    background: #b91c1c;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover { background: #991b1b; }
+
+footer {
+    background: #0a0a0a;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    color: #777;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Commercial Pine Straw Installation in Georgia</h1>
+        <p>Cook's Pine Straw partners with property managers, HOAs, apartment complexes, and retail centers to deliver dependable large-scale pine straw installation.</p>
+        <a href="#contact" class="btn">Request Commercial Quote</a>
+    </div>
+</header>
+
+<section>
+    <h2>Why Property Managers Choose Us</h2>
+    <div class="features">
+        <div class="card">
+            <h3>Commercial-Only Focus</h3>
+            <p>We specialize exclusively in large-scale properties. No small residential distractions.</p>
+        </div>
+        <div class="card">
+            <h3>Reliable Crews & Scheduling</h3>
+            <p>Professional installation teams with structured seasonal scheduling.</p>
+        </div>
+        <div class="card">
+            <h3>Bulk Supply & Logistics</h3>
+            <p>Streamlined sourcing and delivery designed for high-volume projects.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta-strip">
+    <h2>Need a Quote for Your Property?</h2>
+    <a href="#contact" class="btn">Get Pricing Today</a>
+</section>
+
+<section class="section-light">
+    <h2>Serving Commercial Properties Across Georgia</h2>
+    <p>
+        We work with apartment communities, retail developments, HOAs, and multi-building properties
+        throughout Georgia. Our goal is simple: consistent curb appeal with zero management headaches.
+    </p>
+</section>
+
+<section class="contact-section" id="contact">
+    <h2 style="text-align:center; margin-bottom:40px;">Request a Commercial Quote</h2>
+
+    <!-- Replace action URL with your Formspree endpoint -->
+    <form action="https://formspree.io/f/YOUR-ID-HERE" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="text" name="company" placeholder="Company / Property Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <textarea name="message" rows="4" placeholder="Property size, location, and details"></textarea>
+        <button type="submit">Submit Quote Request</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Cook's Pine Straw | Commercial Pine Straw Specialists in Georgia
+</footer>
+
+</body>
+</html>
